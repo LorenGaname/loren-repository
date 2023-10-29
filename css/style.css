@@ -1,0 +1,247 @@
+/*estilos específicos*/
+
+.productos-mas-vendidos {
+    color: #b4cab1;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.todos-los-productos-texto {
+    color: #b4cab1;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+/*Botones para registrarse - carrito - etc*/
+.botones-interact {
+    color: rgb(180, 123, 180);
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.botones-interact a {
+    text-decoration: none;
+}
+
+.botones-interact ul {
+    list-style-type: none;
+}
+
+.nav-item {
+    color: #b4cab1
+}
+
+.logo-navbar {
+    width: 100px;
+}
+
+/* Estilo copyright*/
+.copy {
+    font-weight: 600;
+    text-align: center;
+}
+
+.copy-contacto {
+    font-weight: 600;
+    text-align: center;
+}
+
+.copy-lista-de-deseo {
+    font-weight: 600;
+    text-align: center;
+}
+
+.copy-productos {
+    font-weight: 600;
+    text-align: center;
+}
+
+.copy-registro {
+    font-weight: 600;
+    text-align: center;
+}
+
+.copy-shopping-cart {
+    font-weight: 600;
+    text-align: center;
+}
+
+/*Estilos de imágenes*/
+
+.infoCUOTAS1 {
+    text-align: center;
+    max-width: 100%;
+    padding: 4%;
+    height: auto;
+    display: block;
+}
+
+
+
+
+.img-ult-ingresos {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.carteras {
+    grid-area: 1 / 2 / 3 / 5
+}
+
+
+/*IMAGENES PRODUCTOS MÁS VENDIDOS*/
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    /* Centra horizontalmente las imágenes */
+    align-items: center;
+    /* Centra verticalmente las imágenes */
+}
+
+.image-container img {
+    width: auto;
+    /* Ajusta el ancho de las imágenes según su contenido */
+}
+
+@media (max-width: 767px) {
+    .image-container img {
+        width: 100%;
+        /* En pantallas más pequeñas, cada imagen ocupa el 100% del ancho del contenedor */
+    }
+}
+
+/*IMAGEN LOGO GRANDE PARA IR A PRODUCTOS */
+.image-container1 {
+    display: flex;
+    justify-content: center;
+    /* Centra horizontalmente la imagen */
+    align-items: center;
+    /* Centra verticalmente la imagen */
+    height: 100vh;
+    /* Ajusta la altura al 100% del viewport */
+}
+
+.image-container img {
+    width: auto;
+    /* Ajusta el ancho de la imagen según su contenido */
+}
+
+@media (max-width: 767px) {
+    .image-container img {
+        width: 100%;
+        /* En pantallas más pequeñas, la imagen ocupa el 100% del ancho del contenedor */
+    }
+}
+
+/*apartado PRODUCTOS*/
+.billetera-producto2 {
+    width: 425px;
+}
+
+.Logo-chico-productos {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/*ESTILO REGISTRO*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 20px 0;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #b4cab1;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.registro-usuario-title {
+    text-align: center;
+
+}
+
+.preguntanos {
+    text-align: center;
+    color: #5f2f5f;
+    font-size: x-large
+}
+
+.email-contacto {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    text-align: center;
+}
+
+span {
+    font-weight: bold;
+}
+
+#email {
+    color: #5f2f5f;
+}
+
+#telefono {
+    color: #b4cab1;
+}
+
+.tel-contacto {
+    text-align: center;
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

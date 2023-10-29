@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img class="logo-navbar" src="../img/logochico.jpg" alt="imagen-logo-chico"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="shoppingcart.html">Carrito</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/pages/registro.html">Iniciar sesión | Registrarse</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        </nav>
+        <!--Formulario-->
+        <h1 class="preguntanos">PREGÚNTANOS</h1>
+    <form action="procesar_pregunta.php" method="post">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="43" required></textarea><br><br>
+
+        <input type="submit" value="Enviar Pregunta">
+    </form>
+
+        <!--Nuestros datos-->
+        <p class="email-contacto">Nuestro email es: <span id="email">ganameloren@gmail.com</span></p>
+        <p class="tel-contacto">Nuestro teléfono es: <span id="telefono">+5493517625899</span></p>
+        
+    </header>
+    <footer>
+        <div class="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3409.2676278083522!2d-64.29618792358744!3d-31.296347390460078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sGoycoechea%20509%20esquina%20Mariani.%20%20Villa%20Allende!5e0!3m2!1ses-419!2sar!4v1695306404155!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        </div>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="IG" href="https://www.instagram.com/maringa.mas/?hl=es-la">
+                    <i class="fa-brands fa-instagram" style="color: #5b127d;"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="FB" href="https://www.facebook.com/">
+                    <i class="fa-brands fa-facebook" style="color: #5b127d;"></i>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://wa.me/5493517625899">
+                    <i class="fa-brands fa-whatsapp" style="color: #5b127d;"></i>
+                </a>
+            </li>
+        </ul>
+        <img src="../img/logochico.jpg" class="Logo-chico-productos" alt="LOGO MM">
+        <p class="copy-productos">copyright all rights reserved</p>
+    </footer>
+    <script src="https://kit.fontawesome.com/1cb78d2de5.js" crossorigin="anonymous"></script>
+</body>
+</html>
