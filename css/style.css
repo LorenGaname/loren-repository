@@ -236,3 +236,45 @@ span {
     align-items: center;
 }
 
+/* Estilos del carrito de compra */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#carrito {
+    width: 70%;
+    margin: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #5f2f5f;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #b4cab1;
+}
+
+.total {
+    margin-top: 20px;
+    text-align: right;
+}
+.letra-carrito{
+    text-align: center;
+    color: black;
+font-family: arial, sans-serif;
+}
+
+.letra-cuadro{
+    color: rgb(37, 1, 51);
+    font-family: Arial, sans-serif;
+}
