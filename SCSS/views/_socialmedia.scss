@@ -1,0 +1,62 @@
+/*Registro*/
+h2 {
+    margin: 20px 0;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: $color-principal;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba (0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type=submit] :hover {
+    background-color: #0056b3;
+}
+
+
+.preguntanos {
+    text-align: center;
+    color: $color-principal;
+}
+
+.email-contacto{
+font-family: $font-principal;
+margin: 10px;
+text-align: center;
+}
+
+span{
+font-weight: bold;
+}
+
+#email{
+    color: $color-secundario;
+}
+
+.mapa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#telefono{
+    color: $color-principal;
+}
+
+.tel-contacto{
+    text-align: center;
+    font-family: $font-principal;
+}

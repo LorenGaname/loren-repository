@@ -1,0 +1,22 @@
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #FFF;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.botones-interact{
+    color: rgb (180, 123, 180);
+    padding: 5px;
+    font-family: $font-principal;
+}
+
+.botones-interact a {
+    text-decoration: none;
+}
+
+.botones-interact ul {
+    list-style-type: none;
+}

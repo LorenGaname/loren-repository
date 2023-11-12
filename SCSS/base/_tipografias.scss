@@ -1,0 +1,76 @@
+.productos-mas-vendidos {
+    color: $color-principal;
+    font-size: x-large;
+    font-family: $font-principal;
+    text-align: center;
+}
+
+.todos-los-productos-texto {
+    color: $color-principal;
+    font-size: x-large;
+    font-family: $font-principal;
+    text-align: center;
+    padding: 100px;
+}
+
+/* Estilo registro*/
+body {
+    font-family: $font-principal;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.registro-usuario-title {
+    text-align: center;
+}
+
+
+.letra-cuadro {
+    color: rgb (37, 1, 51);
+    font-family: $font-principal;
+}
+
+.letra-cuadro {
+    text-align: center;
+    font-family: $font-principal;
+    color: black
+}
+
+.letra-carrito {
+    text-align: center;
+    color: black;
+    font-family: $font-principal;
+}
+
+.total {
+    margin-top: 20px;
+    text-align: right;
+}
+
+td{
+    border: 1px;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: $color-principal;
+}
+
+#carrito {
+    width: 70%;
+    margin: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20%;
+}
+
+.total {
+    margin-top: 20px;
+    text-align: right;
+}

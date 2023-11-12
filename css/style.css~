@@ -26,11 +26,6 @@ body {
   text-align: center;
 }
 
-.preguntanos {
-  text-align: center;
-  color: #5f2f5f;
-}
-
 .letra-cuadro {
   color: rgb 37, 1, 51;
   font-family: "Times New Roman", Times, serif;
@@ -330,4 +325,4 @@ input[type=submit] {
   list-style-type: none;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css~.map */
