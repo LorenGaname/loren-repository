@@ -12,25 +12,6 @@
     align-items: center;
 }
 
-.image-container img {
-    width: auto;
-}
-
-@media (max-width: 767px) {
-    .image-container img{
-    .image-container {
-        width: 100%;
-    }
-}
-}
-
-.image-container1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
 /*Apartado productos*/
 .billetera-producto2 {
     width: 425px;
