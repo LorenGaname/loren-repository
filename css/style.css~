@@ -118,6 +118,99 @@ table {
   width: 100px;
 }
 
+*,
+*:before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  display: block;
+}
+
+body {
+  line-height: 1.317101995;
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+  background-color: #ffffff;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.centered-elements {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.content {
+  background-color: #0a0a0a;
+  font-family: "Montserrat", sans-serif;
+}
+
+.todos-los-productos-texto {
+  position: relative;
+  display: block;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  font-size: 28px;
+  cursor: pointer;
+  width: fit-content;
+  margin: 0 auto 48px;
+  z-index: 0;
+  transition: all 450ms ease;
+}
+.todos-los-productos-texto::after, .todos-los-productos-texto::before {
+  content: "";
+  display: block;
+  position: absolute;
+  transition: width 540ms, opacity 300ms ease;
+}
+
+.todos-los-productos-texto {
+  padding: 0 6px;
+}
+.todos-los-productos-texto::before, .todos-los-productos-texto::after {
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  height: 0.1em;
+  width: 0;
+}
+.todos-los-productos-texto::before {
+  left: 0;
+}
+.todos-los-productos-texto::after {
+  background-color: pink;
+  right: 0;
+}
+.todos-los-productos-texto:hover {
+  color: pink;
+}
+.todos-los-productos-texto:hover::before {
+  width: 60%;
+  transition: width 250ms ease;
+  background-color: pink;
+}
+.todos-los-productos-texto:hover::after {
+  width: 100%;
+  background-color: transparent;
+}
+
 /*Registro*/
 input[type=text],
 input[type=email],
@@ -187,22 +280,6 @@ input[type=submit] {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.image-container img {
-  width: auto;
-}
-
-@media (max-width: 767px) {
-  .image-container img .image-container {
-    width: 100%;
-  }
-}
-.image-container1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
 }
 
 /*Apartado productos*/
